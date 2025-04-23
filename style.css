@@ -238,7 +238,7 @@ footer {
 @media (max-width: 564px) {
   nav {
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -246,7 +246,7 @@ footer {
   }
   .pages {
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 10px;
     justify-content: center;
     padding-top: 0;
