@@ -62,7 +62,7 @@ nav .button {
   color: white;
 }
 .intro-pic {
-  background-image: url(background-image.jfif);
+  background-image: url(images/background-image.jfif);
   background-size: 100%;
   background-position: center;
   height: auto;
@@ -235,10 +235,10 @@ footer {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 564px) {
   nav {
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -246,7 +246,7 @@ footer {
   }
   .pages {
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
     padding-top: 0;
